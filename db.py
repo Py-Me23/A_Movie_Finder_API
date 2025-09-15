@@ -9,7 +9,8 @@ load_dotenv()
 mongo_client = MongoClient(os.getenv("MONGO_URI"))
 
 # access database
-movie_finder_db = mongo_client["movie_finder_db "]
+movie_finder_db = mongo_client["movie_finder_db"]
 
 # pick a code to operate on
-movies_collection = movie_finder_db["movies"]
+movies_collection = movie_finder_db[" saved_movies"]
+top_favorite_movies = movie_finder_db["top_three"]

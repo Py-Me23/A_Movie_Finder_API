@@ -14,3 +14,6 @@ movie_finder_db = mongo_client["movie_finder_db"]
 # pick a code to operate on
 movies_collection = movie_finder_db[" saved_movies"]
 top_favorite_movies = movie_finder_db["top_three"]
+
+# create database for users
+user_collection = movie_finder_db["users"]

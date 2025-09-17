@@ -2,3 +2,5 @@ fastapi[standard]
 pymongo
 python-dotenv
 requests
+passlib[bcrypt]
+pyjwt
